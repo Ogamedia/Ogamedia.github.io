@@ -5,6 +5,10 @@ body{
 
 /**making the nav bar drop down*
 i have been looking for this for two weeks**/
+#navhide > ul{
+	display: none;
+}
+
 nav ul ul{
 	display: none;
 }
@@ -83,7 +87,3 @@ nav ul ul a:hover{
 	background: purple;
 }
 
-table{
-	display:none;
-}
-select
