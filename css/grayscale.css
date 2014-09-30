@@ -1,7 +1,5 @@
 /*!
- * Start Bootstrap - Grayscale Bootstrap Theme (http://startbootstrap.com)
- * Code licensed under the Apache License v2.0.
- * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+    css edited 
  */
 
 body {
@@ -18,9 +16,11 @@ html {
     height: 100%;
 }
 
+
 a{
     target:_blank;
 }
+
 
 h1,
 h2,
@@ -194,7 +194,7 @@ a:focus {
     border-radius: 35px;
     font-size: 40px;
     color: #fff;
-    background: 0 0 url(../img/favicon.png);
+    background: 0 0 url(../img/favicon.png) no-repeat; 
     -webkit-transition: background .4s ease-in-out;
     -moz-transition: background .4s ease-in-out;
     transition: background .4s ease-in-out;
