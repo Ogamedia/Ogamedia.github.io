@@ -194,17 +194,18 @@ a:focus {
     border-radius: 35px;
     font-size: 40px;
     color: #fff;
-    background: 0 0 url(../img/favicon.ico);
+    background: 0 0 url(../img/favicon.png);
     -webkit-transition: background .4s ease-in-out;
     -moz-transition: background .4s ease-in-out;
     transition: background .4s ease-in-out;
 }
 
+/*changes picture to a a transparent*/
+
 .btn-circle:hover,
 .btn-circle:focus {
-   /* outline: */
     color: #fff;
-    opacity: 0.2;
+    opacity: 0.4;
     background: #000 url(../img/favicon.ico);
 }
 
@@ -266,6 +267,8 @@ a:focus {
 
 }
 
+
+
 .portfolio-section {
     width: 100%;
     padding: 100px 0;
@@ -279,11 +282,16 @@ a:focus {
     -o-background-size: cover;
 }
 
-
+.row img{
+    width:120px;
+    height:96px;
+    padding-bottom:10px;
+    margin: center;
+}
 
 @media(min-width:767px) {
     .content-section {
-        padding-top: 250px;
+        padding-top: 150px;
     }
 
 
@@ -296,7 +304,6 @@ a:focus {
         height: 600px;
         margin-top: 250px;
         background-color: #ccc;
-
     }
 }
 
@@ -321,6 +328,7 @@ a:focus {
     outline: 0;
     color: #000;
     background-color: #219ab3;
+    bac
 }
 
 ul.banner-social-buttons {
@@ -365,11 +373,7 @@ footer p {
     background: rgba(255,255,255,.2);
 }
 
-/*
-img{
-    opacity: 0.3;
-}
-*/
+
 
 img::selection {
     background: 0 0;
